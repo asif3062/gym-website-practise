@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+}
+.full-width{
+    width: 100%;
+}
+.width-40{
+    width: 40%;
+}
+.container-flex{
+    display: flex;
+}
+.image-size{
+    height: 200px;
+    width: 250px;
+}
+.margin-bottom{
+    margin-bottom: 65px;
+}
+.margin-left{
+    margin-left: 50px;
+}
+.border{
+    border-top: 6px solid #66BFBF;
+    border-left: 6px solid #6E85B7;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.box-shadow{
+    box-shadow: 5px 5px 20px gray;
+}
+.top .nav{
+    display: flex;
+}
+.top .nav .menu ul{
+    float: right;
+}
+.top .nav .menu ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.top .nav .logo p{
+    line-height: 20px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+.first-banner-img img{
+    width: 100%;
+    height: 250px;
+    margin-left: 50px;
+}
+.first-banner-txt{
+    padding: 20px 70px 20px 30px;
+}
+.first-banner-txt p{
+    text-align: justify;
+}
+.card-blog{
+    width: 80%;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 30px;
+}
+.about .about-img img{
+    height: 300px;
+    width: 450px;
+}
+.about .about-txt{
+    padding: 5px 20px;
+    text-align: justify;
+    margin-top: 50px;
+}
