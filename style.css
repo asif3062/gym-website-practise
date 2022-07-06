@@ -59,15 +59,28 @@ body{
 }
 .top .nav .menu ul{
     float: right;
+
 }
 .top .nav .menu ul li{
     display: inline-block;
-    padding: 10px 15px;
+    padding: 8px 11px;
+    color: #18978F;
+}
+.top .nav .menu ul li:hover{
+    border: 1px solid #76BA99;
+    box-shadow: 2px 2px 4px #ADCF9F;
+    cursor: pointer;
 }
 .top .nav .logo p{
+    width: 200px;
+    color: #3AB0FF;
+    font-weight: bolder;
     line-height: 20px;
-    font-size: 25px;
-    margin-left: 70px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.top .nav .logo p:hover{
+    color: #9DD6DF;
 }
 .first-banner-img img{
     width: 100%;
@@ -75,6 +88,7 @@ body{
     margin-left: 50px;
 }
 .first-banner-txt{
+    text-align: center;
     padding: 20px 70px 20px 30px;
 }
 .first-banner-txt p{
@@ -94,7 +108,7 @@ body{
 }
 .about .about-txt{
     padding: 5px 20px;
-    text-align: justify;
+    text-align: center;
     margin-top: 50px;
     margin-left: 30px;
 }
@@ -136,6 +150,13 @@ body{
     color: #fff;
     background-color: black;
     padding: 7px 8px;
+}
+.buy-btn:hover{
+    border: 1px solid #76BA99;
+    box-shadow: 2px 2px 4px #B25068;
+    cursor: pointer;
+    background-color: #C499BA;
+    color: black;
 }
 .services #golden{
     color: gold;
