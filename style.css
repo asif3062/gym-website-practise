@@ -1,6 +1,28 @@
 body{
     margin: 0;
 }
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.chat-bot{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 70px;
+    width: 70px;
+    display: grid;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.chat-bot h3{
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
 .half-width{
     width: 50%;
 }
@@ -40,7 +62,7 @@ body{
 }
 .top .nav .menu ul li{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 .top .nav .logo p{
     line-height: 20px;
@@ -60,9 +82,10 @@ body{
 }
 .card-blog{
     width: 80%;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 .about{
+    width: 100%
     margin-top: 30px;
 }
 .about .about-img img{
@@ -73,4 +96,53 @@ body{
     padding: 5px 20px;
     text-align: justify;
     margin-top: 50px;
+    margin-left: 30px;
+}
+.services .service-txt{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.services .service-txt h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.service-cards{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    text-align: center;
+}
+.service-cards .card-1{
+    box-shadow: 5px 5px 20px #ABC9FF;
+    margin: 0 20px;
+}
+.service-cards .card-2{
+    box-shadow: 5px 5px 20px #B7D3DF;
+    margin: 0 20px;
+
+}
+.service-cards .card-3{
+    box-shadow: 5px 5px 20px #D6EFED;
+    margin: 0 20px;
+
+}
+.width-divided-3{
+    width: 30%;
+    height: 285px
+}
+.buy-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 7px 8px;
+}
+.services #golden{
+    color: gold;
+}
+.services #diamond{
+    color: #3AB0FF;
+}
+.services #silver{
+    color: #3F4E4F;
 }
